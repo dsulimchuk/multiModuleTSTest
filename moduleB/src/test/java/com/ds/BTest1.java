@@ -1,13 +1,17 @@
 package com.ds;
 
-class BTest {
 
-    @org.junit.jupiter.api.Test
+import org.junit.Test;
+
+
+public class BTest1 {
+
+    @Test
     void main() {
         B.main(null);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sayA() {
         new B().sayA(123);
 
