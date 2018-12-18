@@ -14,9 +14,16 @@ public class B {
         System.out.println(5);
         System.out.println(5);
         System.out.println(5);
+
     }
 
     public String sayA(int a) {
         return String.valueOf(a);
+    }
+
+    public void a() {
+        while (true) {
+
+        }
     }
 }
