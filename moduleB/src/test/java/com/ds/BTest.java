@@ -14,6 +14,7 @@ public class BTest {
     @Test
     public void sayA() {
         new B().sayA(123);
+        new B().sayA(123);
 
     }
 }
