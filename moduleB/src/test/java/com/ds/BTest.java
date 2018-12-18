@@ -4,15 +4,15 @@ package com.ds;
 import org.junit.Test;
 
 
-public class BTest1 {
+public class BTest {
 
     @Test
-    void main() {
+    public void main() {
         B.main(null);
     }
 
     @Test
-    void sayA() {
+    public void sayA() {
         new B().sayA(123);
 
     }
